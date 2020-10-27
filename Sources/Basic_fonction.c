@@ -1,4 +1,4 @@
-#include "h.h"
+#include "dico.h"
 
 void	ft_putchar(char c)
 {

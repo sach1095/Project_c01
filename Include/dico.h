@@ -4,9 +4,11 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
-
-// déclaration de ma var i qui me permet de parcourir toutes mes boucles ou chaine de caractère au besoin.
-int i;
+#include <ctype.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <time.h>
 
 //Basic_fonction :
 
@@ -18,7 +20,13 @@ int	ft_strcmp(char *s1, char *s2);
 char 	lireCaractere();
 
 // Check_fonction
-void	Check_lettre(char Malettre, char *MotsMystere, char *MotsCacher, int *nombre_coup);
+int		Check_lettre(char Malettre, char *MotsMystere, char *MotsCacher, int nombre_coup);
 int		Win_game(int nbc, char *MosMystere, char *MotsCacher);
+
+char	*Choix_Mots();
+char 	*lecture_list();
+int		count_words(char *dico);
+char	**ft_malloc(char *str, int size);
+char	*Cache_mots(char *MotsMystere);
 
 #endif
