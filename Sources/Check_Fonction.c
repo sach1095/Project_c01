@@ -48,7 +48,8 @@ int		Win_game(int nbc, char *MotsMystere, char *MotsCacher)
 {
 	if (nbc == 0)
 	{
-		ft_putstr("\nVous avez Perdu retenter votre chance la prochaine fois");
+		ft_putstr("\nVous avez Perdu ...\n\n");
+		DEFAITE
 		ft_putstr("\nLe Mots Mystere etait : ");
 		ft_putstr(MotsMystere);
 		ft_putstr("\n");

@@ -33,9 +33,7 @@ int main()
 		free(MotsMystere);
 		free(MotsCacher);
 		if ( nombre_victoire == 5)
-		{
-			ft_putstr("\nBravos c'est toi le BEST !!!!");
-		}
+			VICTOIR
 		ft_putstr("\n\nVoulez vous rejouer ? y/n ");
 		ft_putstr("Vous cumulez ");
 		ft_put_nbr(nombre_victoire);

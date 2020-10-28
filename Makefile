@@ -1,5 +1,5 @@
 
-NAME = prog
+NAME = pendu
 
 CLEAN = clean
 
